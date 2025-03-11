@@ -12,7 +12,7 @@
         <div class="card-body">
             <h5 class="card-title text-white">Your Tasks</h5>
             @if($tasks->isEmpty())
-                <p class="text-muted">You have no tasks.</p>
+                <p class="mt-4 text-white">You have no tasks.</p>
             @else
                 <table class="table table-striped">
                     <thead>
