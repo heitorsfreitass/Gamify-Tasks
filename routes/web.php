@@ -7,7 +7,7 @@ use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('/scoreboard', [DashboardController::class, 'scoreboard'])->middleware(['auth', 'verified'])->name('scoreboard');
