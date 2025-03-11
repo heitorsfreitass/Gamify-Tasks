@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <!-- Logo -->
         <a class="navbar-brand" href="{{ route('scoreboard') }}">
-            <img src="{{ asset('path/to/your/logo.png') }}" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            <img src="https://e7.pngegg.com/pngimages/569/664/png-clipart-green-and-white-game-application-character-space-invaders-arcade-game-video-game-pac-man-space-invaders-game-angle-thumbnail.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
             {{ config('app.name', 'Laravel') }}
         </a>
 
