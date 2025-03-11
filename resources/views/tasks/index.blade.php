@@ -3,14 +3,14 @@
 @section('content')
 <div class="container mt-5">
 
-    <h2 class="mb-4">Tasks</h2>
+    <h2 class="mb-4" style="font-size: 26px;">Tasks</h2>
     <a href="{{ route('tasks.create') }}" class="btn btn-primary mb-3">
         <i class="bi bi-plus-lg">Add New Task</i> 
     </a>
 
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Your Tasks</h5>
+            <h5 class="card-title text-white">Your Tasks</h5>
             @if($tasks->isEmpty())
                 <p class="text-muted">You have no tasks.</p>
             @else
