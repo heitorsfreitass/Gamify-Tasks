@@ -22,7 +22,7 @@
                 padding: 0;
                 font-family: 'Roboto', sans-serif;
                 color: #fff;
-                background: #1a1a1a;
+                background: #1a1a1a; 
                 min-height: 100vh;
                 display: flex;
                 flex-direction: column;
@@ -64,7 +64,6 @@
                 font-family: 'Press Start 2P', cursive;
             }
 
-            /* Main Content */
             main {
                 flex: 1;
                 padding: 20px;
@@ -81,7 +80,29 @@
                 background: linear-gradient(45deg, #00cc00, #009900);
             }
 
-            
+            .card {
+                background: rgba(0, 0, 0, 0.8);
+                border: 2px solid #00ff00;
+                border-radius: 15px;
+            }
+
+            .card-header {
+                background: linear-gradient(45deg, #00ff00, #00cc00);
+                border-bottom: 2px solid #00ff00;
+                font-family: 'Press Start 2P', cursive;
+            }
+
+            .table {
+                color: #fff;
+            }
+
+            .table-striped tbody tr:nth-of-type(odd) {
+                background-color: rgba(255, 255, 255, 0.05);
+            }
+
+            .table-striped tbody tr:hover {
+                background-color: rgba(0, 255, 0, 0.1);
+            }
         </style>
     </head>
     <body class="font-sans antialiased">
